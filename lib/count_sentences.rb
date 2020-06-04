@@ -29,10 +29,8 @@ class String
   def count_sentences
     converted = self.gsub(/[.?!]/, "*")
     string = converted.split("*")
-    cleaned = string.delete("*")
-    binding.pry
-    counted = cleaned.count
-    counted
+    cleaned = string.count
+    cleaned
     # periods = self.count(".")
     # questions = self.count("?")
     # exclamations = self.count("!")
