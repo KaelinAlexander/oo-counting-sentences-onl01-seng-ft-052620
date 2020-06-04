@@ -15,6 +15,7 @@ class String
       TRUE
     else
       FALSE
+    end
   end
 
   def exclamation?
@@ -22,6 +23,7 @@ class String
       TRUE
     else
       FALSE
+    end 
   end
 
   def count_sentences
