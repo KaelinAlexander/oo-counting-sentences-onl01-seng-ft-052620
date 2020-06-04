@@ -28,6 +28,7 @@ class String
 
   def count_sentences
     converted = self.gsub(/.?!/, "*")
+    binding.pry
     string = converted.split("*")
     cleaned = string.delete("*")
     counted = cleaned.count
