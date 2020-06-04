@@ -31,10 +31,5 @@ class String
     string = converted.split("*")
     cleaned = string.count
     cleaned
-    # periods = self.count(".")
-    # questions = self.count("?")
-    # exclamations = self.count("!")
-    # sentences = periods + questions + exclamations
-    # sentences
   end
 end
