@@ -27,10 +27,11 @@ class String
   end
 
   def count_sentences
-    periods = self.count(".")
-    questions = self.count("?")
-    exclamations = self.count("!")
-    sentences = periods + questions + exclamations
-    sentences
+    self.split(".","!","?")
+    # periods = self.count(".")
+    # questions = self.count("?")
+    # exclamations = self.count("!")
+    # sentences = periods + questions + exclamations
+    # sentences
   end
 end
