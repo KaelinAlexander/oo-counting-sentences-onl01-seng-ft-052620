@@ -30,8 +30,7 @@ class String
     converted = self.gsub(/[.?!]/, "*")
     string = converted.split("*")
     cleaned = string.reject(&:empty?)
-    binding.pry
-    counted
+    counted = cleaned.counted
     # periods = self.count(".")
     # questions = self.count("?")
     # exclamations = self.count("!")
