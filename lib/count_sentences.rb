@@ -30,6 +30,7 @@ class String
     self.gsub!(/.?!/, "*")
     self.split("*")
     self.delete("*")
+    self.count
     # periods = self.count(".")
     # questions = self.count("?")
     # exclamations = self.count("!")
